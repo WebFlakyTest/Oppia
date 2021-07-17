@@ -39,6 +39,6 @@ jobs:
         run: sudo apt install ffmpeg
 
       - name: Run E2E Test
-        run: xvfb-run -a --server-args="-screen 0, 1285x1000x24" python -m scripts.run_e2e_tests --skip-build --skip-install --suite="subscriptionsFlow" --prod_env
+        run: xvfb-run -a --server-args="-screen 0, 1285x1000x24" python -m scripts.run_e2e_tests --skip-build --skip-install --suite="subscriptions" --prod_env
         env: 
           VIDEO_RECORDING_IS_ENABLED: 0
