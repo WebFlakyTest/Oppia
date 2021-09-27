@@ -1,4 +1,4 @@
-name: End-to-End tests
+name: e2e user profile
 on:
   push:
     branches:

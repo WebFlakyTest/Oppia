@@ -1,4 +1,4 @@
-name: End-to-End tests
+name: translation classroom
 on:
   push:
     branches:

@@ -1,4 +1,4 @@
-name: End-to-End tests
+name: e2e learner flow skill editor
 on:
   push:
     branches:
