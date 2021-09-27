@@ -1,4 +1,4 @@
-name: other tests
+name: e2e other tests
 on:
   push:
     branches:

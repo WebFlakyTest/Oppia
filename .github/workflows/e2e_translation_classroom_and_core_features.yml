@@ -1,4 +1,4 @@
-name: translation classroom
+name: e2e translation classroom
 on:
   push:
     branches:
